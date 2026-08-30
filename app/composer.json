@@ -1,0 +1,23 @@
+{
+    "name": "fysxfe/url-shortener",
+    "description": "URL shortener REST API with Redis cache",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "ext-redis": "*",
+        "yiisoft/yii2": "~2.0.49"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
