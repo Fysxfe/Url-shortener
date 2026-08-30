@@ -1,0 +1,11 @@
+/app/vendor/
+.env
+/app/runtime/*
+!/app/runtime/.gitkeep
+/app/web/assets/*
+!/app/web/assets/.gitkeep
+*.sql
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
